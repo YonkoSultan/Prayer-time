@@ -34,16 +34,16 @@
 ### You must write the code of your city correctly, a simple mistake may lead the program to crash.
 ### The current available cities and their codes are :
 
-#### - Makkah Al mukarmah ( you should write : makkah )
+#### - Makkah Al mukarmah ( code: makkah )
 
-#### - Jeddah ( you should write : jeddah )
+#### - Jeddah ( code: jeddah )
 
-#### - Al Kharj ( you should write : al kharj )
+#### - Al Kharj ( code: al kharj )
 
-#### - Riyadh ( you should write : riyadh )
+#### - Riyadh ( code: riyadh )
 
-#### - Jaizan ( you should write : jaizan )
+#### - Jaizan ( code: jaizan )
 
-#### - Buraidah ( you should write : buraidah ) 
+#### - Buraidah ( code: buraidah ) 
 
-#### - Hafr albatin ( you should write : hafr albatin )
+#### - Hafr albatin ( code: hafr albatin )
