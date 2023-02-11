@@ -8,8 +8,6 @@ import requests, re
 from plyer import notification
 from time import sleep, strftime
 
-city = 'makkah'.lower()  # enter the city name
-
 # these are the paths of each city in the website I get the prayer times from
 
 cities = {
@@ -22,6 +20,9 @@ cities = {
     "hafr albatin": "/c1967/Hafr+albatin"
 }
 
+city = 'makkah' # enter the city name
+
+city = city.lower()
 
 def Send(name, time):
     '''Notifications function'''
