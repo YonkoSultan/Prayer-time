@@ -71,7 +71,7 @@ def Send(name, time):
             app_name="أوقات الصلاة",
             title="أوقات الصلاة",
             message='اقترب وقت صلاة الضحى',
-            app_icon='',  # Icon path should be determined by a function
+            app_icon='',  # Icon path should be determined by you
         )
 
     else:
@@ -83,7 +83,7 @@ def Send(name, time):
             app_name="أوقات الصلاة",
             title="أوقات الصلاة",
             message='حان الآن وقت صلاة ' + name,
-            app_icon='',  # Icon path should be determined by a user
+            app_icon='',  # Icon path should be determined by you
         )
 
 
