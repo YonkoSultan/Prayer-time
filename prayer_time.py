@@ -110,7 +110,7 @@ def main():
 
             prayers_times["الفجر"] = response[0]
             # prayers_times["الضحى"] = response[1]  don't include in project
-            prayers_times["الظهر"] = "11:08 AM"
+            prayers_times["الظهر"] = response[2]
             prayers_times["العصر"] = response[3]  # putting prayer times into dictionary
             prayers_times["المغرب"] = response[4]
             prayers_times["العشاء"] = response[5]
