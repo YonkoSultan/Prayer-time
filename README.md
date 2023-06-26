@@ -1,6 +1,6 @@
 # Prayer time
 ### أداة بايثون ترسل لك تنبيه عندما يحين وقت الصلوات المفروضة.
-### بعد تحميل الملف, يلزمك أن تغير المتغير city الموجود بالملف حسب رمز مدينتك ( المدون بالأسفل ) من أجل أن تعمل الأداة وفقًأ لأوقات مدينتك;
+### بعد تحميل الملف, يلزمك أن تغير المتغير ``city`` الموجود بالملف حسب رمز مدينتك ( المدون بالأسفل ) من أجل أن تعمل الأداة وفقًأ لأوقات مدينتك;
 ### علمًا أن المدينة الإفتراضية هي مكة المكرمة.
 
 ![city](https://user-images.githubusercontent.com/107263975/217622192-d5f22ca9-f3e2-4762-9f22-dae476aa2941.png)
@@ -23,9 +23,13 @@
 
 #### - ( hafr albatin : رمزها ) حفر الباطن
 
+### للإستفسارات يمكنكم التواصل معي على البريد الإلكتروني : sultanxx575@gmail.com
+
+
+
 -------------------------------
 ### Python tool that sends you a notification when it is muslim prayer time according to the city.
-### After downloading the file, you must change the variable (city) in the file according to your city code ( which is listed down ) in order for the tool to work according to your city prayer times.
+### After downloading the file, you must change the variable ``city`` in the file according to your city code ( which is listed down ) in order for the tool to work according to your city prayer times.
 ### The default city is Makkah Al mukarmah
 
 ![city](https://user-images.githubusercontent.com/107263975/217622192-d5f22ca9-f3e2-4762-9f22-dae476aa2941.png)
@@ -47,3 +51,7 @@
 #### - Buraidah ( code: buraidah ) 
 
 #### - Hafr albatin ( code: hafr albatin )
+
+## For any inquires, contact me at :
+
+### sultanxx575@gmail.com
