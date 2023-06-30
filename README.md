@@ -23,6 +23,8 @@
 
 #### - ( hafr albatin : رمزها ) حفر الباطن
 
+
+###  يمكنك وضع الأداة في ال startup بإستعمال "pythonw", بذلك ستعمل الأداة بمجرد تشغيلك للجهاز
 ### للإستفسارات يمكنكم التواصل معي على البريد الإلكتروني : sultanxx575@gmail.com
 
 
@@ -51,6 +53,10 @@
 #### - Buraidah ( code: buraidah ) 
 
 #### - Hafr albatin ( code: hafr albatin )
+
+### You can put this script into startup using "pythonw" which then will work everytime you turn on your computer.
+
+### Currnetly the language is arabic only for notifing
 
 ## For any inquires, contact me at :
 
