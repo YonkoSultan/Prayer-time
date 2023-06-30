@@ -70,8 +70,9 @@ error appeared in the error log function, so this process has failed. These are 
 
             sys.exit()
 
-    time.sleep(1200)
-    return main()
+    else:
+        time.sleep(1200)
+        return main()
 
 
 def PrayerNotification(name):
