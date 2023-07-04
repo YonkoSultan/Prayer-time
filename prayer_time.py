@@ -115,27 +115,21 @@ def PrayerNotification(name):
         if name == "الضحى":  # Al duha
 
             time.sleep(1500)  # 20 minutes and extra 5 minutes to avoid any errors from the site
-            return notification.notify(
-                app_name="أوقات الصلاة",
-                title="أوقات الصلاة",
-                message='اقترب وقت صلاة الضحى',
-                app_icon='',  # Icon path should be determined by a function
-            )
 
-        else:
-            # For the 5 prayers
-            # 1- Fajir
-            # 2- Al duhr (Al jumaah if it was friday)
-            # 3- Al asr
-            # 4- Al maghrib
-            # 5- Al isha
+        # For the 6 prayers
+        # 1- Fajir
+        # 2- Al duhr (Al jumaah if it was friday)
+        # 3- Al asr
+        # 4- Al maghrib
+        # 5- Al isha
+        # 6- Al duha
 
-            return notification.notify(
-                app_name="أوقات الصلاة",
-                title="أوقات الصلاة",
-                message='حان الآن وقت صلاة ' + name,
-                app_icon='',  # Icon path should be determined by a user
-            )
+        return notification.notify(
+            app_name="أوقات الصلاة",
+            title="أوقات الصلاة",
+            message='حان الآن وقت صلاة ' + name,
+            app_icon='',  # Icon path should be determined by a user
+        )
     except Exception as e:
         error_time = time.strftime("%Y-%m-%d %H:%M", time.localtime())
         Errors(e, error_time)
